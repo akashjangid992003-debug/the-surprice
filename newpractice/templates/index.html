@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operation Bulbul ❤️</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+     <div id="stars"></div>
+    <!-- Terminal Screen -->
+    <div id="terminal">
+        <h2 id="text"></h2>
+        <span id="cursor">█</span>
+
+        <div id="loadingBox">
+            <div id="loadingBar"></div>
+        </div>
+
+        <h3 id="percent">0%</h3>
+    </div>
+
+    <!-- Access Screen -->
+    <div id="accessScreen">
+        <h1>🚨 ACCESS GRANTED 🚨</h1>
+    </div>
+
+    <!-- Birthday Screen -->
+    <div id="birthdayScreen">
+
+        <h1>🎉 Happy Birthday 🎉</h1>
+
+        <h2>Priya (Bulbul) ❤️</h2>
+
+        <p>
+            Wishing you endless happiness,
+            beautiful memories,
+            good health,
+            and lots of smiles.
+
+            May all your dreams come true.
+
+            ❤️
+         </p>
+
+         <div id="giftBtn">
+         <div class="gift-box">🎁</div>
+         <p>Click to Open Your Secret Gift ❤️</p>
+         </div>
+
+    </div>
+
+    <!-- Letter Screen -->
+    <div id="letterScreen">
+
+    <div id="envelope">
+
+        <div id="envelopeEmoji">💌</div>
+
+        <p>Opening your secret letter...</p>
+
+        </div>
+
+      <div id="letter">
+
+        <h1>💌 A Letter For Bulbul 💌</h1>
+
+        <p id="letterText"></p>
+
+       </div>
+
+      </div>
+
+  <!-- Effects -->
+  <canvas id="fireworks"></canvas>
+
+  <div id="hearts"></div>
+  <div id="balloons"></div>
+
+   <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+
+</body>
+</html>
